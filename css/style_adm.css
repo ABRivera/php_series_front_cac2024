@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #100d11;
+    color: #ffffff;
+}
+header {
+    background-color: #9f3647;
+    color:#ffffff;
+}
+section {
+    margin-bottom: 3em;
+}
+footer {
+    padding-top:2em;
+    background-color:#9f3647;
+    color:#ffffff;
+    height: 18vh;
+}
+.formNewSeries {
+    background-color: #2c3034;
+}
+.titulo {
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #100d11;
+    color: #ffffff;
+}
+header {
+    background-color: #9f3647;
+    color:#ffffff;
+}
+footer {
+    padding-top:2em;
+    background-color:#9f3647;
+    color:#ffffff;
+    min-height: 14vh;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    color: #cfcfcf;
+}
+.sectionPrincipal{
+    color:white;
+    background:linear-gradient(to right top, #0000008a, #0000008a), url(../assets/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    text-align: center;
+}
+.tituloPrincipal{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.subtituloPrincipal{
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.buscadorPrincipal{
+    background-color: #181419;
+    color:rgb(255, 255, 255);
+    height: 20vh;
+    text-align: center;
+}
+.tituloSection{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.buscadorPeliculas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.inputBuscador{
+    width: 500px;
+}
+.botonBuscador{
+    background-color:#9f3647;
+    border-color: #9f3647;
+    margin: 0px 10px;
+    text-align: center;
+}
+.seriesTendencia{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+} 
+.serie{
+    width:200px;
+}
+.boton-paginacion {
+    background-color:#9f3647;
+    border-color: #9f3647;
+    margin: 0px 10px;
+    text-align: center;
+}
+/* .pagination .page-link {
+    background: #181419;
+    color: white;
+}
+.page-item.active .page-link{
+    background: #302d31;
+    border-color: gray;
+    color: white;
+} */
+.aportes {
+    text-align: center;
+    font-size: 0.8rem;
+}

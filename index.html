@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HSRC-Series</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-4" href="./index.html">
+                        <img src="./assets/G13_HSRC_DummyLogo.png" alt="logo imagen" width="150" loading="lazy">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-5" aria-current="page" href="./index.html#ultimas">Últimas Series</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="./pages/registrarse.html">Registrarse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="./pages/iniciosesion.html">Iniciar Sesión</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container-fluid mb-3" id="main">
+                <!-- <section class="container sectionPrincipal"> -->
+                <section class="d-flex flex-column justify-content-center sectionPrincipal">
+                    <h1 class="tituloPrincipal">Series ilimitadas <br> en un solo lugar</h1>
+                    <h2 class="subtituloPrincipal">Disfruta donde quieras. <br> Cancela en cualquier momento.</h2>
+                    <div>
+                        <a class="btn btn-danger btn-lg" href="./pages/registrarse.html">Registrate</a>
+                    </div>
+                </section>
+                <section class="d-flex flex-column justify-content-center buscadorPrincipal">
+                    <h2 class="tituloSection">¿Qué estas buscando para ver?</h2>
+                        <form name="buscador" id="buscador">
+                            <div class="d-flex flex-row justify-content-center">
+                                <input class="form-control ms-2 inputBuscador" type="text" placeholder="Buscar..." id="buscar" name="buscar">
+                                <input class="btn btn-danger btn-lg botonBuscador" type="submit" value="Buscar">
+                            </div>
+                        </form>
+                </section>
+                <hr>
+                <section id="ultimas" class="seriesTendencia">
+                    <h3 class="tituloSection">Últimas Series</h3>
+                    <div class="d-flex flex-row flex-wrap mb-3 peliculas">
+                        <!-- Aquí se cargarán las series tendencia -->
+
+                        <div class="card mx-auto bg-dark mb-3" style="width:300px">
+                            <a href="#">
+                                <img src="./assets/img/star_trek_ds9.jpg" class="card-img-top" alt="title poster" style="aspect-ratio: 1 ; object-fit: cover;">
+                                <div class="card-body">
+                                    <span class="badge text-bg-info">80 episodes</span>
+                                    <h5 class="card-title">Star Trek Deep Space Nine</h5>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="card mx-auto bg-dark mb-3" style="width:300px">
+                            <a href="#">
+                                <img src="./assets/img/dr_house.jpg" class="card-img-top img-fluid" alt="title poster" style="aspect-ratio: 1 ; object-fit: cover;">
+                                <div class="card-body">
+                                    <span class="badge text-bg-info">121 episodes</span>
+                                    <h5 class="card-title">Dr. House</h5>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card mx-auto bg-dark mb-3" style="width:300px">
+                            <a href="#">
+                                <img src="./assets/img/atla.jpg" class="card-img-top img-fluid" alt="title poster" style="aspect-ratio: 1 ; object-fit: cover;">
+                                <div class="card-body">
+                                    <span class="badge text-bg-info">82 episodes</span>
+                                    <h5 class="card-title">Avatar: La Leyenda de Aang</h5>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card mx-auto bg-dark mb-3" style="width:300px">
+                            <a href="#">
+                                <img src="./assets/img/psych.jpg" class="card-img-top img-fluid" alt="title poster" style="aspect-ratio: 1 ; object-fit: cover;">
+                                <div class="card-body">
+                                    <span class="badge text-bg-info">121 episodes</span>
+                                    <h5 class="card-title">Psych</h5>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+<!--                     <div>
+                        <nav aria-label="pagination example">
+                            <ul class="pagination justify-content-center">
+                              <li class="page-item disabled">
+                                <span class="page-link">Previous</span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item active" aria-current="page">
+                                <span class="page-link">2</span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                              </li>
+                            </ul>
+                        </nav>
+                    </div> -->
+                    <button id="botonAnterior" class="btn btn-danger boton-paginacion">Anterior</button>  
+                    <button id="botonSiguiente" class="btn btn-danger boton-paginacion">Siguiente</button>
+                </section>
+
+        </main>
+
+        <footer class="footer">
+            <nav class="mb-5">
+                <ul class="row list-unstyled text-center">
+                    <li class="col-12 col-md-3 text-center">
+                        <a class="text-decoration-none text-white fs-6" href="">Términos y Condiciones</a>
+                    </li>
+                    <li class="col-12 col-md-3 text-center">
+                        <a class="text-decoration-none text-white fs-6" href="">Ayuda</a>
+                    </li>
+                    <li class="col-12 col-md-3 text-center">
+                        <a class="text-decoration-none text-white fs-6" href="">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="col-12 col-md-3 text-center">
+                        <a class="text-decoration-none text-white fs-6" href="./pages/administrador.html">Administrador</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="aportes">Aporte realizado por coordinación JAVA-PHP Colaborador <a href="https://www.linkedin.com/in/gisele-milagros-gonzalez" target="_blank">Gisele M. Gonzalez</a></p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--script que trae series de un servidor y crea cada serie en el dom [para hacer]-->
+        <script src="./js/cargar_series_index.js"></script>
+    </body>
+</html>
