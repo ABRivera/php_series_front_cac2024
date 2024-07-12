@@ -44,8 +44,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
         //realizo la peticion fetch a la api para agregar
         const response = await fetch('http://localhost/php_series_back_cac2024/series.php', options);
-        //obtengo la respuesta
         const data = await response.json();
+		console.log(data);
         //si la respuesta es correcta (201), muestro un mensaje de exito y limpio los inputs del formulario
         if (response.status === 201) {
             alert('Serie agregada correctamente');
@@ -56,6 +56,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             alert('Error al agregar la serie');
         }
        
-    });
+	});
 
 });
